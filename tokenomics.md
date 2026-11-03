@@ -1,20 +1,18 @@
-# 📊 VoltZilla (VZLA) Tokenomics
+# VoltZilla (VZLA) — Historical allocation draft
 
-## Token Details
-- **Name:** VoltZilla
-- **Symbol:** VZLA
-- **Blockchain:** Solana
-- **Standard:** SPL Token
+> **NOT VERIFIED / غير معتمد.** This document records a proposal found in the repository, not a confirmed mint allocation. Do not use these figures to advertise or register a token until matched against a verified contract and allocation records.
 
-## Distribution
-| Allocation | Percentage | Purpose |
-|-----------|-----------|---------|
-| Community | 40% | Airdrops & Rewards |
-| Liquidity | 30% | DEX Trading |
-| Development | 20% | Team & Development |
-| Marketing | 10% | Promotion |
+| Historical proposal | Percentage |
+|---|---:|
+| Community (airdrop and rewards) | 40% |
+| Liquidity | 30% |
+| Development | 20% |
+| Marketing | 10% |
 
-## Links
-- Website: https://itsAAA1.github.io
-- DexScreener: https://dexscreener.com/solana/vzla
-- Telegram: Coming Soon
+**Conflicts found:** Another README proposes 80% sale / 10% pool / 5% community / 5% team, while the website whitepaper describes 100% bonding-curve distribution. These can represent competing drafts or different token releases; none is established as the actual live token allocation.
+
+**Evidence needed:** intended full mint address, creator/owner authority verification, initial supply allocation, liquidity accounts, lock/burn transactions and any newer approved tokenomics document.
+
+**Officially supplied X account:** https://x.com/voltzillasol1
+
+No Telegram, Discord or token-specific buy links are asserted here.
