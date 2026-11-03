@@ -1,71 +1,27 @@
-# ⚡ VoltZilla Token (VZLA) — Official Token Repository
+# VoltZilla (VZLA) — Token Documentation
 
-[![Solana](https://img.shields.io/badge/Network-Solana-9945FF?style=flat-square&logo=solana)](https://solana.com)
-[![SPL Token](https://img.shields.io/badge/Standard-SPL_Token-blue?style=flat-square)](https://spl.solana.com)
-[![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square)]()
+> **Verification pending / قيد التحقق** — This repository is documentation, **not proof of token ownership, verified token supply, available liquidity, exchange listing, or investment returns**.
 
-> Official repository for the **VoltZilla (VZLA)** token on Solana blockchain.
+## Current confirmed project references
 
----
+- Network discussed: Solana.
+- Project name used in this repository: VoltZilla (VZLA).
+- **X account confirmed by the project owner:** [@voltzillasol1](https://x.com/voltzillasol1).
+- Public project website: [itsAAA1.github.io](https://itsaaa1.github.io/).
+- Actual files in this repository: `README.md`, `tokenomics.md`, `LICENSE`.
 
-## 📋 Token Details
+## Mint identity — not yet confirmed as the project mint
 
-```
-Token Name:    VoltZilla
-Symbol:        VZLA
-Blockchain:    Solana
-Standard:      SPL Token
-Total Supply:  1,000,000,000 VZLA
-Decimals:      9
-```
+The website currently references `JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump`. Its on-chain mint is a distinct Solana token with **6 decimals** and a mint creation transaction dated **27 October 2024**, whereas older project documentation states **9 decimals** and a **29 March 2026** project launch. Another historic project note describes a separate million-unit mint. **No verified owner-to-mint link is available here**, so do not describe a mint as officially verified solely because it appears on this site.
 
----
+A token display name, social account or a README cannot prove ownership or authority over a mint. Before publishing a trading link, verify a full mint address, creator wallet evidence, supply, decimals, metadata authorities, liquidity and relevant transactions from original blockchain records.
 
-## 🔐 Token Metadata
+## Tokenomics
 
-The token metadata follows the **Metaplex Token Metadata Standard** for full compatibility with:
-- Phantom Wallet ✅
-- Solflare Wallet ✅
-- Jupiter Aggregator ✅
-- Raydium DEX ✅
-- DexScreener ✅
+[Historical draft tokenomics](tokenomics.md) conflict with allocations shown in `VoltZilla/README.md`, its CoinGecko application draft and the live site's whitepaper. **No allocation is currently endorsed as verified.** Reconcile the original mint and on-chain flow before presenting percentages to buyers.
 
----
+## Status of features
 
-## 📁 Repository Structure
+An X profile exists. Telegram and Discord have **not** been identified as official VoltZilla channels, so they are deliberately omitted. A generic DexScreener homepage is not evidence of a token-specific listing. Do not claim automated liquidity locking, guaranteed returns or verified market traction without underlying on-chain evidence.
 
-```
-voltzilla-token/
-├── metadata/
-│   ├── token-metadata.json    # Official token metadata
-│   └── logo.png               # Token logo (512x512)
-├── docs/
-│   ├── tokenomics.md          # Token distribution details
-│   └── whitepaper.md          # Project whitepaper
-├── scripts/
-│   └── verify-token.js        # Token verification script
-└── README.md
-```
-
----
-
-## 🪙 Tokenomics
-
-| Allocation | Percentage | Amount |
-|---|---|---|
-| Public Sale (Pump.fun) | 80% | 800,000,000 VZLA |
-| Liquidity Pool | 10% | 100,000,000 VZLA |
-| Community Rewards | 5% | 50,000,000 VZLA |
-| Team (Locked 1yr) | 5% | 50,000,000 VZLA |
-
----
-
-## 🔗 Links
-
-- **Main Repo:** [github.com/itsAAA1/VoltZilla](https://github.com/itsAAA1/VoltZilla)
-- **Website:** Coming Soon
-- **Twitter:** [@VoltZilla_VZLA](https://twitter.com/VoltZilla_VZLA)
-
----
-
-*⚡ Power. Speed. Community. — VoltZilla*
+This document does not request a transaction and does not make any changes to a Solana contract or wallet.
