@@ -10,6 +10,10 @@
 - Public project website: [itsAAA1.github.io](https://itsaaa1.github.io/).
 - Actual files in this repository: `README.md`, `tokenomics.md`, `LICENSE`.
 
+## Live on-chain observation: owner-reported mint, not yet cryptographically authenticated
+
+**On-chain inspection — 5 November 2026 (Solana mainnet; Helius RPC via Nova):** The owner previously supplied mint `DHxStA9nRq6DdhBKT89s38fpxD9wE7MtyMn9HMuWeyN9`. The mint exists as **VoltZilla (VZLA)**, SPL Token (standard Token Program), **1,000,000 current units**, **9 decimals**. Mint authority remains active (more tokens can be created); freeze authority is null; metadata update authority is active. The largest reported token account holds **100% of the current supply**. No reliable spot price or verified liquidity pair was returned. This validates observable mint data **but not a cryptographic signature proving the owner's control or public approval of this mint as the project's sole official address**. Never call this supply immutable, decentralized, tradeable, or liquidity-locked without separate evidence. Another mint shown in an old whitepaper (`JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump`) is **a separate token** with **6 decimals** and approximately **999,992,926.77** current units; its authorities and creator differ, so those figures must not be merged.
+
 ## Mint identity — not yet confirmed as the project mint
 
 A historical whitepaper lists `JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump` as an unverified address, not a confirmed mint belonging to this project. Its on-chain mint is a distinct Solana token with **6 decimals** and a mint creation transaction dated **27 October 2024**, whereas older project documentation states **9 decimals** and a **29 March 2026** project launch. Another historic project note describes a separate million-unit mint. **No verified owner-to-mint link is available here**, so do not describe a mint as officially verified solely because it appears on this site.
