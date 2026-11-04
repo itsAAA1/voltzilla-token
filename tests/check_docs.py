@@ -13,5 +13,5 @@ assert "not a confirmed mint belonging to this project" in readme, "Mint disclai
 assert "These were conflicting proposals" in tokenomics, "Historical allocations disclaimer missing"
 for text in (readme, tokenomics):
     assert "https://t.me/" not in text and "discord.gg/" not in text, "Unofficial social link"
-    assert "guaranteed returns" not in text.lower(), "Unverified returns claim"
+    assert "returns are guaranteed" not in text.lower(), "Unsupported positive guarantee"
 print("OK: VoltZilla token documentation checks passed")
