@@ -12,9 +12,18 @@
 
 ## Mint identity — not yet confirmed as the project mint
 
-The website currently references `JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump`. Its on-chain mint is a distinct Solana token with **6 decimals** and a mint creation transaction dated **27 October 2024**, whereas older project documentation states **9 decimals** and a **29 March 2026** project launch. Another historic project note describes a separate million-unit mint. **No verified owner-to-mint link is available here**, so do not describe a mint as officially verified solely because it appears on this site.
+A historical whitepaper lists `JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump` as an unverified address, not a confirmed mint belonging to this project. Its on-chain mint is a distinct Solana token with **6 decimals** and a mint creation transaction dated **27 October 2024**, whereas older project documentation states **9 decimals** and a **29 March 2026** project launch. Another historic project note describes a separate million-unit mint. **No verified owner-to-mint link is available here**, so do not describe a mint as officially verified solely because it appears on this site.
 
 A token display name, social account or a README cannot prove ownership or authority over a mint. Before publishing a trading link, verify a full mint address, creator wallet evidence, supply, decimals, metadata authorities, liquidity and relevant transactions from original blockchain records.
+
+## Listing and roadmap status
+
+- **CoinGecko:** Not submitted / لم يُقدَّم بعد.
+- **CoinMarketCap:** Not submitted / لم يُقدَّم بعد.
+- **Phase 1:** Incomplete; verifying the mint and ownership is required.
+- **Phase 2:** Only after mint identity is approved; not currently underway.
+- **Launch platform/date:** Not confirmed; older launch dates are historical draft claims.
+- **Canonical status:** [VoltZilla/STATUS.md](https://github.com/itsAAA1/VoltZilla/blob/main/STATUS.md).
 
 ## Tokenomics
 

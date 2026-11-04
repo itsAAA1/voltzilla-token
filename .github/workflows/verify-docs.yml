@@ -1,0 +1,14 @@
+name: VoltZilla token documentation verification
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check status and historical disclaimers
+        run: python3 tests/check_docs.py
