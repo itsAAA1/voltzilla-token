@@ -9,9 +9,11 @@
 | Development | 20% |
 | Marketing | 10% |
 
-**Conflicts found:** Another README proposes 80% sale / 10% pool / 5% community / 5% team, while the website whitepaper describes 100% bonding-curve distribution. These can represent competing drafts or different token releases; none is established as the actual live token allocation.
+**Conflicts found:** Older drafts proposed 80% sale / 10% pool / 5% community / 5% team, and a historical whitepaper proposed bonding-curve distribution. These were conflicting proposals; neither is an approved token allocation. These can represent competing drafts or different token releases; none is established as the actual live token allocation.
 
 **Evidence needed:** intended full mint address, creator/owner authority verification, initial supply allocation, liquidity accounts, lock/burn transactions and any newer approved tokenomics document.
+
+**Listing requests:** CoinGecko and CoinMarketCap have **not been submitted**. The launch platform and date remain unconfirmed, and Phase 1 is incomplete.
 
 **Officially supplied X account:** https://x.com/voltzillasol1
 
