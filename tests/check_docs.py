@@ -11,7 +11,7 @@ assert "Not submitted / لم يُقدَّم بعد" in readme, "Listing status m
 assert "not been submitted" in tokenomics, "Historical draft needs listing disclaimer"
 assert "not a confirmed mint belonging to this project" in readme, "Mint disclaimer missing"
 assert "DHxStA9nRq6DdhBKT89s38fpxD9wE7MtyMn9HMuWeyN9" in readme and "DHxStA9nRq6DdhBKT89s38fpxD9wE7MtyMn9HMuWeyN9" in tokenomics, "Owner-reported mint is missing"
-assert "mint authority active" in readme and "mint authority active" in tokenomics, "Mint risk flag missing"
+assert "Mint authority remains active" in readme and "Mint authority remains active" in tokenomics, "Mint risk flag missing"
 assert "These were conflicting proposals" in tokenomics, "Historical allocations disclaimer missing"
 for text in (readme, tokenomics):
     assert "https://t.me/" not in text and "discord.gg/" not in text, "Unofficial social link"
