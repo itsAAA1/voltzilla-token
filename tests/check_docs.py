@@ -16,4 +16,7 @@ assert "These were conflicting proposals" in tokenomics, "Historical allocations
 for text in (readme, tokenomics):
     assert "https://t.me/" not in text and "discord.gg/" not in text, "Unofficial social link"
     assert "returns are guaranteed" not in text.lower(), "Unsupported positive guarantee"
+assert "no built-in transfer-fee extension" in readme, "SPL fee clarification missing"
+assert "does not mean the token or project is cancelled" in tokenomics, "Freeze authority must not be described as token cancellation"
+assert "27 October 2024" in readme, "Historical Pump.fun mint date missing"
 print("OK: VoltZilla token documentation checks passed")
