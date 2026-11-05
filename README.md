@@ -29,6 +29,14 @@ A historical whitepaper lists `JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump` as 
 
 A token display name, social account or a README cannot prove ownership or authority over a mint. Before publishing a trading link, verify a full mint address, creator wallet evidence, supply, decimals, metadata authorities, liquidity and relevant transactions from original blockchain records.
 
+## SPL transfer fees and project status
+
+The two observed candidates use the **original Solana SPL Token Program** `TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA`. Unlike Token-2022, this program has **no built-in transfer-fee extension**; this does **not** mean exchange, AMM, routing, network or slippage costs are zero. Do not advertise a specific buy/sell fee percentage without a documented, executable market.
+
+The older mint was **observed** on Pump.fun with an October 27, 2024 creation time in indexed records; the million-unit mint's own launch mechanism and any owner-to-mint association remain unconfirmed. The existence of either mint is not evidence that development has stopped or that the project was cancelled. A null freeze authority only indicates that the issuing mint cannot freeze its token accounts.
+
+Original references: [Solana Token Programs](https://solana.com/docs/tokens), [Token-2022 transfer fees](https://www.solana-program.com/docs/token-2022/extensions), [project status](https://github.com/itsAAA1/VoltZilla/blob/main/STATUS.md).
+
 ## Listing and roadmap status
 
 - **CoinGecko:** Not submitted / لم يُقدَّم بعد.
