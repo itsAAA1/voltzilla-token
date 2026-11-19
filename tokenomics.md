@@ -1,3 +1,5 @@
+> **تصحيح 20 نوفمبر 2026:** النسب المقترحة 40/30/20/10 أدناه **ليست توزيعًا معتمدًا** لعملة Pump.fun الأصلية. عقد VoltZilla المرتبط بمنشئ المشروع هو `GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump`، والمعروض المرصود `1,007,005,921.840554`. عند رصد 19 نوفمبر 2026: حساب منحنى Pump.fun امتلك `1,000,000,000` توكن (~99.3043%) ومحفظة المنشئ `7,005,921.840554` (~0.6957%)؛ رصيد المنحنى ليس «حصة المطور» أو قفل سيولة. [التوكنوميكس الفعلية والرسوم](https://github.com/itsAAA1/VoltZilla/blob/main/docs/PUMPFUN_PRIMARY_AUDIT_2026-11-20.md). هذا المستند محفوظ كمسودة تاريخية فقط.
+
 # VoltZilla (VZLA) — Historical allocation draft
 
 > **NOT VERIFIED / غير معتمد.** This document records a proposal found in the repository, not a confirmed mint allocation. Do not use these figures to advertise or register a token until matched against a verified contract and allocation records.
