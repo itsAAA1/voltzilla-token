@@ -2,6 +2,10 @@
 
 > **Verification pending / قيد التحقق** — This repository is documentation, **not proof of token ownership, verified token supply, available liquidity, exchange listing, or investment returns**.
 
+## Canonical update — 20 November 2026
+
+**Official mint remains unverified.** The project now has a dated, tested [release preflight manifest](https://github.com/itsAAA1/VoltZilla/blob/main/project-manifest.json), a [release-readiness audit](https://github.com/itsAAA1/VoltZilla/blob/main/docs/RELEASE_READINESS_2026-11-20.md) and [wallet-security checklist](https://github.com/itsAAA1/VoltZilla/blob/main/docs/SECURITY_RECOVERY.md). The public website source now contains a dated [verification status page](https://github.com/itsAAA1/itsAAA1.github.io/blob/main/status.html), which compares candidate mints without recommending purchase. This repository documents earlier proposals only; it is **not** an independent launch or token authority.
+
 ## Current confirmed project references
 
 - Network discussed: Solana.
