@@ -1,3 +1,5 @@
+> **تصحيح أساسي — 20 نوفمبر 2026:** تم التحقق أن عملة VoltZilla التي أنشأتها محفظة صاحب المشروع على Pump.fun هي **[GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump](https://pump.fun/coin/GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump)**، وأن منشئها `GGSqpEPw3WDvfqJRj6frvrTz1C2wcUz28Sgfdg2NNJiD`؛ رُصدت 6 خانات عشرية ومعروض `1,007,005,921.840554` وToken-2022. **كل بيانات عنوان المليون وأي توزيع غير قائم أدناه تاريخية ولا تصف العملة الأصلية الحالية.** راجع [تقرير التدقيق الحديث](https://github.com/itsAAA1/VoltZilla/blob/main/docs/PUMPFUN_PRIMARY_AUDIT_2026-11-20.md) و[الورقة البيضاء الحالية](https://itsaaa1.github.io/whitepaper-current.html). لم يُقدَّم إدراج CoinGecko أو CoinMarketCap بعد.
+
 # VoltZilla (VZLA) — Token Documentation
 
 > **Verification pending / قيد التحقق** — This repository is documentation, **not proof of token ownership, verified token supply, available liquidity, exchange listing, or investment returns**.
