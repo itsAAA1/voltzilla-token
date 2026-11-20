@@ -1,28 +1,25 @@
-> **تصحيح 20 نوفمبر 2026:** النسب المقترحة 40/30/20/10 أدناه **ليست توزيعًا معتمدًا** لعملة Pump.fun الأصلية. عقد VoltZilla المرتبط بمنشئ المشروع هو `GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump`، والمعروض المرصود `1,007,005,921.840554`. عند رصد 19 نوفمبر 2026: حساب منحنى Pump.fun امتلك `1,000,000,000` توكن (~99.3043%) ومحفظة المنشئ `7,005,921.840554` (~0.6957%)؛ رصيد المنحنى ليس «حصة المطور» أو قفل سيولة. [التوكنوميكس الفعلية والرسوم](https://github.com/itsAAA1/VoltZilla/blob/main/docs/PUMPFUN_PRIMARY_AUDIT_2026-11-20.md). هذا المستند محفوظ كمسودة تاريخية فقط.
+# VoltZilla — historical-only proposals, NOT current distribution
 
-# VoltZilla (VZLA) — Historical allocation draft
+> **Archive only.** For the deployed 4 April 2026 creator-matched Pump.fun token use **[CURRENT_ONCHAIN.md](CURRENT_ONCHAIN.md)**, which documents exact on-chain supply, account owners, token extensions, Mayhem and Cashback. This file preserves earlier ideas, *not* executed token allocations or investor entitlements.
 
-> **NOT VERIFIED / غير معتمد.** This document records a proposal found in the repository, not a confirmed mint allocation. Do not use these figures to advertise or register a token until matched against a verified contract and allocation records.
+## Original proposed allocation (never verified on-chain)
 
-| Historical proposal | Percentage |
+| Proposal | Share |
 |---|---:|
-| Community (airdrop and rewards) | 40% |
+| Community airdrop/rewards | 40% |
 | Liquidity | 30% |
 | Development | 20% |
 | Marketing | 10% |
 
-**Conflicts found:** Older drafts proposed 80% sale / 10% pool / 5% community / 5% team, and a historical whitepaper proposed bonding-curve distribution. These were conflicting proposals; neither is an approved token allocation. These can represent competing drafts or different token releases; none is established as the actual live token allocation.
+Another conflicting early draft suggested 80% sale / 10% pool / 5% community / 5% team. **Neither plan was implemented in the established GDY mint by any verified allocation record**. Do not claim that locked tokens, airdrops, vesting, reserved founder stakes or promised investor rewards exist from these tables.
 
-## On-chain snapshot — not an approved token allocation
+## Why these drafts were mistaken for live facts
 
-**On-chain inspection — 5 November 2026 (Solana mainnet; Helius RPC via Nova):** The owner previously supplied mint `DHxStA9nRq6DdhBKT89s38fpxD9wE7MtyMn9HMuWeyN9`. The mint exists as **VoltZilla (VZLA)**, SPL Token (standard Token Program), **1,000,000 current units**, **9 decimals**. Mint authority remains active (more tokens can be created); freeze authority is null; metadata update authority is active. The largest reported token account holds **100% of the current supply**. No reliable spot price or verified liquidity pair was returned. This validates observable mint data **but not a cryptographic signature proving the owner's control or public approval of this mint as the project's sole official address**. Never call this supply immutable, decentralized, tradeable, or liquidity-locked without separate evidence. Another mint shown in an old whitepaper (`JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump`) is **a separate token** with **6 decimals** and approximately **999,992,926.77** current units; its authorities and creator differ, so those figures must not be merged.
+- The previously owner-reported `DHxStA9nRq6DdhBKT89s38fpxD9wE7MtyMn9HMuWeyN9` is a distinct classic SPL Token with **1,000,000** units, 9 decimals and an active mint authority. It has not been authenticated as the controlling creator mint of the actual Pump.fun GDY project.
+- An old whitepaper cited `JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump`, an unrelated 2024-era Pump.fun mint. Historical matching names are **not** wallet identity evidence.
+- The creator-linked GDY token is on **Token-2022**, **6 decimals**, with supply observed at **1,007,005,921.840554** and original creator wallet `GGSqpEPw3WDvfqJRj6frvrTz1C2wcUz28Sgfdg2NNJiD`.
+- Current observed GDY allocation in public accounts: Pump.fun curve holds 1B (99.30428196%) and creator wallet holds 7,005,921.840554 (0.69571804%). This is *observed holder distribution*, **not** the proposed 40/30/20/10 allocation or an audited liquidity lock.
 
-**Fee and status clarification:** The observed mint accounts use the original SPL Token Program, which has no built-in Token-2022 transfer-fee extension. This does **not** establish zero trading fees, zero slippage or an exchange quote. A null freeze authority means there is no account-freezing authority; it does **not** mean the token or project is cancelled. The older token's indexed creation was on Pump.fun on 27 October 2024, but it has not been established as the project's official mint.
+The old ideas remain searchable here to explain the project's evolution. **No CoinGecko or CoinMarketCap submission has been confirmed; no profit guarantee or token ownership proof is implied.**
 
-**Evidence needed:** intended full mint address, creator/owner authority verification, initial supply allocation, liquidity accounts, lock/burn transactions and any newer approved tokenomics document.
-
-**Listing requests:** CoinGecko and CoinMarketCap have **not been submitted**. The launch platform and date remain unconfirmed, and Phase 1 is incomplete.
-
-**Officially supplied X account:** https://x.com/voltzillasol1
-
-No Telegram, Discord or token-specific buy links are asserted here.
+[Technical current tokenomics](CURRENT_ONCHAIN.md) · [Source on-chain audit](https://github.com/itsAAA1/VoltZilla/blob/main/docs/PUMPFUN_PRIMARY_AUDIT_2026-11-20.md) · [Project site](https://itsaaa1.github.io/).
