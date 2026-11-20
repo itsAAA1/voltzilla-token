@@ -1,3 +1,5 @@
+> **تدقيق إضافي (20 نوفمبر 2026):** تم التحقق من توكن VoltZilla رابع منفصل على **Raydium LaunchLab**، العقد `3cPWF3eKjcq4Y8d2oVXDRaN8ipKBHuyK1uYWY4GT7ray` (مليار VZLA، 6 خانات، سلطتا السك والتجميد null). فهرس Solana يربط إنشائه بمحفظة `28fU8SDMKLXe8hqmdy9dxYNHeddm7xQRzkxK16JLUpi4` يوم 15 مايو 2026. مجمع LaunchLab **غير متخرج**، وبيانات السعر المفهرسة ليست سعرًا حيًا مضمونًا. هذا عقد مختلف عن GDY Pump.fun، وليس سببًا لاختيار العقد الرسمي تلقائيًا. راجع [مطابقة جميع العقود](https://github.com/itsAAA1/VoltZilla/blob/main/docs/FOUR_MINT_RECONCILIATION_2026-11-20.md) وأداة [إثبات المحفظة برسالة](https://itsaaa1.github.io/verify-wallet.html).
+
 # VoltZilla (VZLA) — actual minted Pump.fun token
 
 **Status as reviewed 20 November 2026:** The Solana creator wallet and creation transaction link the VoltZilla project to a specific deployed Pump.fun token. Human control of the wallet has **not** been proven by a recent signature. Do not treat this repository as a licensed offering, exchange approval, wallet custody, or financial return guarantee.
