@@ -26,4 +26,8 @@ assert "Mint authority" in readme or "mint authority" in readme, "Must document 
 assert "different token" in readme.lower(), "Must distinguish old million supply"
 assert "Token-2022" in readme and "6" in readme, "Correct chain program and decimals required"
 assert "Cashback" in readme, "Actual deployed launch mode must be disclosed"
+RAYDIUM="3cPWF3eKjcq4Y8d2oVXDRaN8ipKBHuyK1uYWY4GT7ray"
+for name,text in (("README",readme),("CURRENT_ONCHAIN",live),("history",history)):
+    assert RAYDIUM in text, f"{name}: separate Raydium LaunchLab mint must be identified"
+assert "not graduated" in live and "28fU8SDMKLXe8hqmdy9dxYNHeddm7xQRzkxK16JLUpi4" in live
 print("OK: canonical GDY tokenomics, historical archives and public claims consistent")
