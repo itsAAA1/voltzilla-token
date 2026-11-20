@@ -1,63 +1,53 @@
-> **تصحيح أساسي — 20 نوفمبر 2026:** تم التحقق أن عملة VoltZilla التي أنشأتها محفظة صاحب المشروع على Pump.fun هي **[GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump](https://pump.fun/coin/GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump)**، وأن منشئها `GGSqpEPw3WDvfqJRj6frvrTz1C2wcUz28Sgfdg2NNJiD`؛ رُصدت 6 خانات عشرية ومعروض `1,007,005,921.840554` وToken-2022. **كل بيانات عنوان المليون وأي توزيع غير قائم أدناه تاريخية ولا تصف العملة الأصلية الحالية.** راجع [تقرير التدقيق الحديث](https://github.com/itsAAA1/VoltZilla/blob/main/docs/PUMPFUN_PRIMARY_AUDIT_2026-11-20.md) و[الورقة البيضاء الحالية](https://itsaaa1.github.io/whitepaper-current.html). لم يُقدَّم إدراج CoinGecko أو CoinMarketCap بعد.
+# VoltZilla (VZLA) — actual minted Pump.fun token
 
-# VoltZilla (VZLA) — Token Documentation
+**Status as reviewed 20 November 2026:** The Solana creator wallet and creation transaction link the VoltZilla project to a specific deployed Pump.fun token. Human control of the wallet has **not** been proven by a recent signature. Do not treat this repository as a licensed offering, exchange approval, wallet custody, or financial return guarantee.
 
-> **Verification pending / قيد التحقق** — This repository is documentation, **not proof of token ownership, verified token supply, available liquidity, exchange listing, or investment returns**.
+## Current live project — use this first
 
-## Canonical update — 20 November 2026
+**[CURRENT_ONCHAIN.md](CURRENT_ONCHAIN.md)** is the current canonical technical tokenomics statement; older allocation proposals are **historical-only**.
 
-**Official mint remains unverified.** The project now has a dated, tested [release preflight manifest](https://github.com/itsAAA1/VoltZilla/blob/main/project-manifest.json), a [release-readiness audit](https://github.com/itsAAA1/VoltZilla/blob/main/docs/RELEASE_READINESS_2026-11-20.md) and [wallet-security checklist](https://github.com/itsAAA1/VoltZilla/blob/main/docs/SECURITY_RECOVERY.md). The public website source now contains a dated [verification status page](https://github.com/itsAAA1/itsAAA1.github.io/blob/main/status.html), which compares candidate mints without recommending purchase. This repository documents earlier proposals only; it is **not** an independent launch or token authority.
+| Fact | Verified observation |
+|---|---|
+| Network | Solana mainnet |
+| Original platform | Pump.fun |
+| Creation date | **4 April 2026** |
+| Token | **VoltZilla / VZLA** |
+| Exact creator-matched mint | `GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump` |
+| Mint program | **Token-2022** (`TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb`) |
+| Decimals | **6** |
+| Actual minted supply at audit | **1,007,005,921.840554 VZLA** |
+| Original creator account | `GGSqpEPw3WDvfqJRj6frvrTz1C2wcUz28Sgfdg2NNJiD` |
+| Mint authority / freeze authority | **both null** at time of canonical on-chain observation |
+| Reported mint extensions | MetadataPointer, TokenMetadata; no mint-level TransferFeeConfig |
+| Mayhem | Flag exists; original agent window completed |
+| Cashback / holder reward flags | `true` / `false` respectively, according to Pump.fun indexed state |
+| Bonding curve | Not graduated at checked time; no approved external LP claim |
+| Exchange directory listing applications | **Not submitted / لم يُقدَّم بعد** to CoinGecko or CoinMarketCap |
 
-## Current confirmed project references
+[Pump.fun original contract](https://pump.fun/coin/GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump) · [Solscan creation transaction](https://solscan.io/tx/2frB6tsVzkEyPuteLX35fSbcKvq16fj3UbwD5pyQnhm3Mhgbutc3FGrB64tFacggnP1dkrC37EL26hsKZKQVC23U) · [technical audit monitoring](https://github.com/itsAAA1/VoltZilla/actions/workflows/primary-internals.yml)
 
-- Network discussed: Solana.
-- Project name used in this repository: VoltZilla (VZLA).
-- **X account confirmed by the project owner:** [@voltzillasol1](https://x.com/voltzillasol1).
-- Public project website: [itsAAA1.github.io](https://itsaaa1.github.io/).
-- Actual files in this repository: `README.md`, `tokenomics.md`, `LICENSE`.
+### What the actual balances mean
 
-## Live on-chain observation: owner-reported mint, not yet cryptographically authenticated
+The Pump.fun bonding curve held **1,000,000,000 VZLA (99.30428196%)** and the creator's publicly recorded wallet held **7,005,921.840554 (0.69571804%)**. These two balances exactly equal the mint's recorded supply, but the curve inventory is not developer treasury or locked liquidity. The 2026 Pump.fun **Mayhem** mechanism can explain supply above the normal billion, but this token's complete historical mint/burn event chain has not yet been independently reconciled. See the dedicated [current on-chain analysis](CURRENT_ONCHAIN.md).
 
-**On-chain inspection — 5 November 2026 (Solana mainnet; Helius RPC via Nova):** The owner previously supplied mint `DHxStA9nRq6DdhBKT89s38fpxD9wE7MtyMn9HMuWeyN9`. The mint exists as **VoltZilla (VZLA)**, SPL Token (standard Token Program), **1,000,000 current units**, **9 decimals**. Mint authority remains active (more tokens can be created); freeze authority is null; metadata update authority is active. The largest reported token account holds **100% of the current supply**. No reliable spot price or verified liquidity pair was returned. This validates observable mint data **but not a cryptographic signature proving the owner's control or public approval of this mint as the project's sole official address**. Never call this supply immutable, decentralized, tradeable, or liquidity-locked without separate evidence. Another mint shown in an old whitepaper (`JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump`) is **a separate token** with **6 decimals** and approximately **999,992,926.77** current units; its authorities and creator differ, so those figures must not be merged.
+### Are these royalties or buyback guarantees?
 
-## Live technical checks and what can actually be changed
+**No.** The indexed `agentConfig.buybackBps = 5000` is a Mayhem/agent configuration field, not evidence that anyone bought tokens back or that 50% of holders' investments will be returned. Pump.fun cashback fees can be redirected to buyers through relevant trade instructions, not automatically to all holders. The Holder Rewards flag on this coin is false. The normal platform and network fees still apply. [Pump.fun fees](https://pump.fun/docs/fees).
 
-- The project's [read-only SPL Mint inspector](https://github.com/itsAAA1/VoltZilla/blob/main/scripts/inspect_mints.py) fetches **both candidate addresses** directly from Solana mainnet; it checks the supply, decimal precision, mint and freeze authorities against a dated snapshot. A [daily GitHub Actions audit](https://github.com/itsAAA1/VoltZilla/actions/workflows/onchain-mint-audit.yml) performs the same read-only comparison.
-- The reported million-unit mint is a standard SPL token; the [mint account on Solscan](https://solscan.io/token/DHxStA9nRq6DdhBKT89s38fpxD9wE7MtyMn9HMuWeyN9) presently has active mint authority and mutable Metaplex metadata. The verified Metaplex creator/authority public key is `28fU8SDMKLXe8hqmdy9dxYNHeddm7xQRzkxK16JLUpi4`. **A verified creator signature does not establish that the GitHub account holder controls the private key.**
-- The [separate older mint on Solscan](https://solscan.io/token/JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump) has no mint or freeze authority and immutable on-chain metadata. Its historical promotional description contains claims that should **not** be repeated as verified facts.
-- Changing actual Solana mint or Metaplex settings is **not a GitHub edit**. It requires a transaction approved and signed by the controlling wallet; the connected research tools cannot sign it. Website edits cannot modify immutable metadata.
+### Critical identity and supply safeguards
 
-These observations do not choose an official mint or create a tradeable market, nor do they establish token ownership.
+- **Different VZLA mint (historical million-unit SPL token):** `DHxStA9nRq6DdhBKT89s38fpxD9wE7MtyMn9HMuWeyN9`; this is a *different token* with **1,000,000 units, 9 decimals, active mint authority**. Do not use it as the contract for GDY.
+- **Older historical Pump.fun VZLA mint:** `JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump`; separate asset, not connected by proven project-owner wallet signature.
+- Pump.fun on-chain metadata links [@VoltZillaSOL](https://x.com/VoltZillaSOL); the owner-reported public account is [@voltzillasol1](https://x.com/voltzillasol1). They have different X account IDs and are not cryptographically reconciled. A GitHub metadata edit alone cannot alter the already-deployed Token-2022 record.
+- The project remains blocked from describing itself as fully independently audited, exchange approved, legally cleared, liquid or guaranteed tradeable.
 
-## Mint identity — not yet confirmed as the project mint
+### Public engineering and source records
 
-A historical whitepaper lists `JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump` as an unverified address, not a confirmed mint belonging to this project. Its on-chain mint is a distinct Solana token with **6 decimals** and a mint creation transaction dated **27 October 2024**, whereas older project documentation states **9 decimals** and a **29 March 2026** project launch. Another historic project note describes a separate million-unit mint. **No verified owner-to-mint link is available here**, so do not describe a mint as officially verified solely because it appears on this site.
+- [Main source-of-truth audit](https://github.com/itsAAA1/VoltZilla/blob/main/docs/PUMPFUN_PRIMARY_AUDIT_2026-11-20.md)
+- [Read-only RPC mint and extension/holder auditor](https://github.com/itsAAA1/VoltZilla/blob/main/scripts/audit_primary_internals.py)
+- [Release manifest and blockers](https://github.com/itsAAA1/VoltZilla/blob/main/project-manifest.json)
+- [Official public project site](https://itsaaa1.github.io/) and [status/verification page](https://itsaaa1.github.io/status.html)
+- [Listing application preparation, not sent](https://github.com/itsAAA1/VoltZilla/blob/main/docs/LISTING_APPLICATION_PACK.md)
+- [Previously proposed distribution split, **historical-only**](tokenomics.md).
 
-A token display name, social account or a README cannot prove ownership or authority over a mint. Before publishing a trading link, verify a full mint address, creator wallet evidence, supply, decimals, metadata authorities, liquidity and relevant transactions from original blockchain records.
-
-## SPL transfer fees and project status
-
-The two observed candidates use the **original Solana SPL Token Program** `TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA`. Unlike Token-2022, this program has **no built-in transfer-fee extension**; this does **not** mean exchange, AMM, routing, network or slippage costs are zero. Do not advertise a specific buy/sell fee percentage without a documented, executable market.
-
-The older mint was **observed** on Pump.fun with an October 27, 2024 creation time in indexed records; the million-unit mint's own launch mechanism and any owner-to-mint association remain unconfirmed. The existence of either mint is not evidence that development has stopped or that the project was cancelled. A null freeze authority only indicates that the issuing mint cannot freeze its token accounts.
-
-Original references: [Solana Token Programs](https://solana.com/docs/tokens), [Token-2022 transfer fees](https://www.solana-program.com/docs/token-2022/extensions), [project status](https://github.com/itsAAA1/VoltZilla/blob/main/STATUS.md).
-
-## Listing and roadmap status
-
-- **CoinGecko:** Not submitted / لم يُقدَّم بعد.
-- **CoinMarketCap:** Not submitted / لم يُقدَّم بعد.
-- **Phase 1:** Incomplete; verifying the mint and ownership is required.
-- **Phase 2:** Only after mint identity is approved; not currently underway.
-- **Launch platform/date:** Not confirmed; older launch dates are historical draft claims.
-- **Canonical status:** [VoltZilla/STATUS.md](https://github.com/itsAAA1/VoltZilla/blob/main/STATUS.md).
-
-## Tokenomics
-
-[Historical draft tokenomics](tokenomics.md) conflict with allocations shown in `VoltZilla/README.md`, its CoinGecko application draft and the live site's whitepaper. **No allocation is currently endorsed as verified.** Reconcile the original mint and on-chain flow before presenting percentages to buyers.
-
-## Status of features
-
-An X profile exists. Telegram and Discord have **not** been identified as official VoltZilla channels, so they are deliberately omitted. A generic DexScreener homepage is not evidence of a token-specific listing. Do not claim automated liquidity locking, guaranteed returns or verified market traction without underlying on-chain evidence.
-
-This document does not request a transaction and does not make any changes to a Solana contract or wallet.
+No new token, sale, LP pool, transactions or permissions changes were created by updating these files. These are public engineering records, not a claim of independent smart-contract or legal certification.
