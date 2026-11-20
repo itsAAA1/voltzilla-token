@@ -1,3 +1,5 @@
+> **إضافة مهمة بتاريخ 20 نوفمبر 2026:** توجد عملة رابعة منفصلة على Raydium LaunchLab بعنوان `3cPWF3eKjcq4Y8d2oVXDRaN8ipKBHuyK1uYWY4GT7ray`، ومصدر فهرس الإنشاء يربطها بمحفظة `28fU8SDMKLXe8hqmdy9dxYNHeddm7xQRzkxK16JLUpi4`. أكد مصدر Helius معروض **1,000,000,000** VZLA و6 خانات وسلطتي سك وتجميد null، وعرض فهرس LaunchLab **not graduated**، فلا يُفسر ذلك بأنه مجمع Raydium CPMM مكتمل أو سعر يمكن بيعه بعمق معلوم. هذا توكن منفصل عن GDY المرصود في بقية هذه الصفحة. لا يزال توقيع التحكم بالمحفظة غير متحقق. [ملف مطابقة العقود الأربعة](https://github.com/itsAAA1/VoltZilla/blob/main/docs/FOUR_MINT_RECONCILIATION_2026-11-20.md).
+
 # VoltZilla (VZLA) — CURRENT deployed token internals
 **As-of:** 20 November 2026 (Asia/Riyadh). On-chain supply/authority source: Helius-backed Solana mainnet RPC via Nova, re-checked by [GitHub RPC monitoring](https://github.com/itsAAA1/VoltZilla/actions/workflows/primary-internals.yml). Pump.fun token/program features: indexed Pump.fun status plus official Pump documentation. **Observed facts are snapshots, not investment, liquidity or security guarantees.**
 

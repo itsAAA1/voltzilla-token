@@ -1,3 +1,5 @@
+> **توضيح إضافي:** يوجد رابع توكن مستقل أُطلق على Raydium LaunchLab بعنوان `3cPWF3eKjcq4Y8d2oVXDRaN8ipKBHuyK1uYWY4GT7ray`، معروضه المرصود **1,000,000,000** VZLA وهو **not graduated**، وفهرس الإنشاء يذكر محفظة `28fU8SDMKLXe8hqmdy9dxYNHeddm7xQRzkxK16JLUpi4`. لا تُجمع وحداته أو السوق مع GDY أو DHx أو JBa. [تفاصيل العقود الأربعة](https://github.com/itsAAA1/VoltZilla/blob/main/docs/FOUR_MINT_RECONCILIATION_2026-11-20.md).
+
 # VoltZilla — historical-only proposals, NOT current distribution
 
 > **Archive only.** For the deployed 4 April 2026 creator-matched Pump.fun token use **[CURRENT_ONCHAIN.md](CURRENT_ONCHAIN.md)**, which documents exact on-chain supply, account owners, token extensions, Mayhem and Cashback. This file preserves earlier ideas, *not* executed token allocations or investor entitlements.
