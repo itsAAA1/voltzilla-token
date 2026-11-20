@@ -18,7 +18,7 @@ for phrase in ("Token-2022", "1,000,000,000", "7,005,921.840554", "Mayhem", "Cas
 for phrase in ("40%", "30%", "20%", "10%", "historical-only",
                "These", "historical")[:5]:
     assert phrase in history, "Historical proposed allocation insufficiently labelled: " + phrase
-assert "40% community" not in live.lower(), "Old planned allocation cannot be advertised as current"
+assert "| Community airdrop/rewards | 40% |" not in live, "Unexecuted planned allocation must not be displayed as an active tokenomics table"
 assert "[CURRENT_ONCHAIN.md](CURRENT_ONCHAIN.md)" in readme, "README must link to primary current tokenomics"
 assert "historical-only" in readme, "README must distinguish stale technical notes"
 assert "Not submitted / لم يُقدَّم بعد" in readme, "Do not announce a listing that was not approved"
