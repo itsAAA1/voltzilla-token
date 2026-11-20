@@ -20,3 +20,18 @@ assert "no built-in transfer-fee extension" in readme, "SPL fee clarification mi
 assert "does **not** mean the token or project is cancelled" in tokenomics, "Freeze authority must not be described as token cancellation"
 assert "27 October 2024" in readme, "Historical Pump.fun mint date missing"
 print("OK: VoltZilla token documentation checks passed")
+
+# Current canonical tokenomics must refer to the creator's actual deployed token,
+# not to stale million-token SPL and 40/30/20/10 proposed allocations.
+live_path = ROOT / "CURRENT_ONCHAIN.md"
+assert live_path.is_file(), "Primary minted token supply/holders and Pump mode need a separate current document"
+live = live_path.read_text(encoding="utf-8")
+PRIMARY = "GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump"
+CREATOR = "GGSqpEPw3WDvfqJRj6frvrTz1C2wcUz28Sgfdg2NNJiD"
+for required in (PRIMARY, CREATOR, "Token-2022", "1,007,005,921.840554",
+                 "1,000,000,000", "7,005,921.840554", "Mayhem", "Cashback",
+                 "99.30428196%", "0.69571804%", "not yet cryptographically proven"):
+    assert required in live, "Current tokenomics missing exact observed state: " + required
+assert "[CURRENT_ONCHAIN.md](CURRENT_ONCHAIN.md)" in readme, "README must link to current canonical tokenomics"
+assert "historical-only" in readme, "README should explicitly mark stale technical paragraphs as historical-only"
+assert "40% community" not in live.lower(), "Unexecuted historical allocations are not current tokenomics"
