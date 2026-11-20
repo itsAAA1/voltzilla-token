@@ -17,7 +17,7 @@ Another conflicting early draft suggested 80% sale / 10% pool / 5% community / 5
 
 - The previously owner-reported `DHxStA9nRq6DdhBKT89s38fpxD9wE7MtyMn9HMuWeyN9` is a distinct classic SPL Token with **1,000,000** units, 9 decimals and an active mint authority. It has not been authenticated as the controlling creator mint of the actual Pump.fun GDY project.
 - An old whitepaper cited `JBaHDseUdFEVbAik7rojwC8ZZ8EjyBi1qQPoK9tLpump`, an unrelated 2024-era Pump.fun mint. Historical matching names are **not** wallet identity evidence.
-- The creator-linked GDY token is on **Token-2022**, **6 decimals**, with supply observed at **1,007,005,921.840554** and original creator wallet `GGSqpEPw3WDvfqJRj6frvrTz1C2wcUz28Sgfdg2NNJiD`.
+- The creator-linked GDY token (`GDYcemcZozG9ijhEZioRLRgNMtoxh1BBuV7nvdf1pump`) is on **Token-2022**, **6 decimals**, with supply observed at **1,007,005,921.840554** and original creator wallet `GGSqpEPw3WDvfqJRj6frvrTz1C2wcUz28Sgfdg2NNJiD`.
 - Current observed GDY allocation in public accounts: Pump.fun curve holds 1B (99.30428196%) and creator wallet holds 7,005,921.840554 (0.69571804%). This is *observed holder distribution*, **not** the proposed 40/30/20/10 allocation or an audited liquidity lock.
 
 The old ideas remain searchable here to explain the project's evolution. **No CoinGecko or CoinMarketCap submission has been confirmed; no profit guarantee or token ownership proof is implied.**
